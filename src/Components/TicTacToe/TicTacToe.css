@@ -33,7 +33,9 @@
   border: 10px soil #0f1b21;
   border-radius: 15px;
   cursor: pointer;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .board {
@@ -42,5 +44,14 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  gap: 6px;
+  gap: 8px;
+}
+
+.boxes img {
+  margin: 32px 32px;
+}
+
+.title img {
+  padding: 0px 12px;
+  height: 90px;
 }
